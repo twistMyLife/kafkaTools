@@ -1,0 +1,13 @@
+server:
+  port: 11002
+spring:
+  datasource:
+    url: jdbc:sqlite::resource:db/kafkaTools.db
+#    url: jdbc:sqlite:db/kafkaTools.db
+    driver-class-name: org.sqlite.JDBC
+    username:
+    password:
+
+logging:
+  config: classpath:logback-dev.xml
+
